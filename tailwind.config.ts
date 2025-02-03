@@ -8,9 +8,30 @@ export default {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        container: '1440px',
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        gray1: '#9B9B9B',
+        gray2: '#505050',
+        background: '#191919',
+        light: '#EBEBEB',
+      },
+      backgroundImage: {
+        heroBg: "url('../assets/heroBg.webp')",
+      },
+      fontFamily: {
+        inter: ["var(--font-inter)"],
+        figTree: ["var(--font-figtree)"],
+      },
+      animation: {
+        "marquee": "marquee 8s linear infinite"
+      },
+      keyframes: {
+        "marquee": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
       },
     },
   },
