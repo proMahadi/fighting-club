@@ -52,7 +52,7 @@ const HeroSection: React.FC = () => {
           <Image
             src={fighterImage}
             alt="fighterImage"
-            className="w-full max-w-[500px] mt-6"
+            className=" max-w-[500px] mt-6 w-[65%] mx-auto"
           />
         </div>
       </section>
