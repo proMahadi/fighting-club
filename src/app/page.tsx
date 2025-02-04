@@ -2,6 +2,7 @@ import AboutSection from "@/components/screen/home/About";
 import Experience from "@/components/screen/home/Experience";
 import HeroSection from "@/components/screen/home/HeroSection";
 import Services from "@/components/screen/home/Services";
+import StorySection from "@/components/screen/home/Story";
 import TagsSection from "@/components/screen/home/Tags";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Services />
       <AboutSection />
       <Experience />
+      <StorySection/>
     </>
   );
 }
