@@ -3,6 +3,7 @@ import { figTree, inter } from "@/fonts/fonts";
 import "./globals.css";
 import Container from "@/components/common/Container";
 import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Container>
           <Navbar />
           {children}
+          <Footer/>
         </Container>
       </body>
     </html>
