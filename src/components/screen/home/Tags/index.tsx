@@ -11,7 +11,7 @@ const TagsSection: React.FC = () => {
     },
     {
       id: "2",
-      name: "MuayThai",
+      name: "Muay Thai",
     },
     {
       id: "3",
@@ -33,11 +33,11 @@ const TagsSection: React.FC = () => {
   return (
     <div className="h-[78px] md:h-[108px] bg-white flex items-center overflow-x-hidden relative ">
 
-        <Marquee speed={150}>
+        <Marquee speed={150} className="h-max">
           {tags.map((tag) => (
             <div
               key={tag.id}
-              className="flex items-center gap-[26px] text-nowrap ml-14 "
+              className="flex items-center gap-[26px] text-nowrap ml-14 sm:h-[90px]"
             >
               <Image src={starIcon} alt="starIcon" />
               <p className="text-gray2 font-figTree font-black italic text-[34px] md:text-5xl">
