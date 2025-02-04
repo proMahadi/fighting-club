@@ -19,7 +19,7 @@ const Services: React.FC = () => {
               className="rounded-lg object-cover w-full"
             />
             <div className=" flex gap-5 absolute left-4 bottom-5 z-10">
-              <h5 className="font-figTree font-bold text-[32px] text-white">
+              <h5 className="font-figTree font-bold text-2xl md:text-[32px] text-white">
                 {service.name}
               </h5>
               <Image src={service.icon} alt="iconImg" />
@@ -28,7 +28,7 @@ const Services: React.FC = () => {
         ))}
       </div>
       <div className="flex">
-        <button className="text-white py-3 px-[38px] text-lg font-normal font-figTree rounded-lg bg-background mt-[50px] w-max mx-auto ">
+        <button className="text-white py-3 px-[38px] text-lg font-normal font-figTree rounded-lg bg-background mt-[50px] w-full sm:w-max mx-auto hover:bg-white hover:text-background duration-200 ">
           Learn More
         </button>
       </div>
