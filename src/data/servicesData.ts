@@ -1,5 +1,6 @@
 import service1 from "@/assets/servicesImg/service1.webp"
 import service2 from "@/assets/servicesImg/service2.webp"
+import service3 from "@/assets/servicesImg/service3.svg"
 import service4 from "@/assets/servicesImg/service4.webp"
 import service5 from "@/assets/servicesImg/service5.webp"
 import service6 from "@/assets/servicesImg/service6.webp"
@@ -27,7 +28,7 @@ export const servicesData:Service[] =[
     {
         id:"3",
         name:"Boxing ",
-        img:service5,
+        img:service3,
         icon:icon3, 
     },
     {
