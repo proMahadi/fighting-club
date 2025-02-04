@@ -18,10 +18,10 @@ export default {
         light: '#EBEBEB',
       },
       backgroundImage: {
-        heroBg: "url('../assets/heroBg.webp')",
-        experienceBg: "url('../assets/experienceBg.svg')",
-        story1Bg: "url('../assets/story1bg.svg')",
-        story2Bg: "url('../assets/story2bg.svg')",
+        heroBg: "url('/heroBg.webp')",
+        experienceBg: "url('/experienceBg.svg')",
+        story1Bg: "url('/story1bg.svg')",
+        story2Bg: "url('/story2bg.svg')",
       },
       fontFamily: {
         inter: ["var(--font-inter)"],
