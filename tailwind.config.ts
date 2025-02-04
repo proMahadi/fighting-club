@@ -19,19 +19,11 @@ export default {
       },
       backgroundImage: {
         heroBg: "url('../assets/heroBg.webp')",
+        experienceBg: "url('../assets/experienceBg.svg')",
       },
       fontFamily: {
         inter: ["var(--font-inter)"],
         figTree: ["var(--font-figtree)"],
-      },
-      animation: {
-        "marquee": "marquee 8s linear infinite"
-      },
-      keyframes: {
-        "marquee": {
-          "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(-100%)" },
-        },
       },
     },
   },
