@@ -1,5 +1,5 @@
 import service1 from "@/assets/servicesImg/service1.webp"
-import service2 from "@/assets/servicesImg/service2.webp"
+import service2 from "@/assets/servicesImg/service2.svg"
 import service3 from "@/assets/servicesImg/service3.svg"
 import service4 from "@/assets/servicesImg/service4.webp"
 import service5 from "@/assets/servicesImg/service5.webp"

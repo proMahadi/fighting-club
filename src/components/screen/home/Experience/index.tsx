@@ -18,14 +18,14 @@ const Experience: React.FC = () => {
               Professional{" "}
               <span className="hidden sm:inline-block">MMA Record</span>
             </h4>
-            <div className="mt-[18px] hidden sm:flex justify-evenly items-center ">
-              <h5 className="font-inter font-extrabold text-4xl md:text-[52px] text-white italic">
+            <div className="mt-[18px] hidden sm:flex gap-[15%] justify-center items-center mr-16 ">
+              <h5 className="font-inter font-extrabold text-4xl lg:text-[52px] text-white italic">
                 SUB 3-1
               </h5>
-              <h5 className="font-inter font-extrabold text-5xl md:text-7xl text-white italic">
+              <h5 className="font-inter font-extrabold text-5xl lg:text-7xl text-white italic">
                 13-4
               </h5>
-              <h5 className="font-inter font-extrabold text-4xl md:text-[52px] text-white italic">
+              <h5 className="font-inter font-extrabold text-4xl lg:text-[52px] text-white italic">
                 KO 8
               </h5>
             </div>

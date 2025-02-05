@@ -12,11 +12,11 @@ const Services: React.FC = () => {
       </h3>
       <div className=" mt-8 md:mt-16xl:mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {servicesData.map((service) => (
-          <div key={service.id} className="relative w-full">
+          <div key={service.id} className="relative w-full overflow-hidden rounded-lg">
             <Image
               src={service.img}
               alt="serviceImage"
-              className="rounded-lg object-cover w-full"
+              className="object-cover w-full hover:scale-110 duration-300"
             />
             <div className=" flex gap-5 absolute left-4 bottom-5 z-10">
               <h5 className="font-figTree font-bold text-2xl md:text-[32px] text-white">
