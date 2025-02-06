@@ -15,37 +15,37 @@ import { Service } from "@/types";
 export const servicesData:Service[] =[
     {
         id:"1",
-        name:"Boxing ",
+        name:"Boxing",
         img:service1,
         icon:icon1, 
     },
     {
         id:"2",
-        name:"Boxing ",
+        name:"Muay Thai",
         img:service2,
         icon:icon2, 
     },
     {
         id:"3",
-        name:"Boxing ",
+        name:"Jiu Jitsu",
         img:service3,
         icon:icon3, 
     },
     {
         id:"4",
-        name:"Boxing ",
+        name:"Wrestling",
         img:service4,
         icon:icon4, 
     },
     {
         id:"5",
-        name:"Boxing ",
+        name:"Tailored Programs",
         img:service5,
         icon:icon5, 
     },
     {
         id:"6",
-        name:"Boxing ",
+        name:"Fitness Goals",
         img:service6,
         icon:icon6, 
     },

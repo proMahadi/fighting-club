@@ -16,7 +16,7 @@ const Services: React.FC = () => {
             <Image
               src={service.img}
               alt="serviceImage"
-              className="object-cover w-full hover:scale-110 duration-300"
+              className="object-cover rounded-lg w-full h-full hover:scale-110 duration-300"
             />
             <div className=" flex gap-5 absolute left-4 bottom-5 z-10">
               <h5 className="font-figTree font-bold text-2xl md:text-[32px] text-white">

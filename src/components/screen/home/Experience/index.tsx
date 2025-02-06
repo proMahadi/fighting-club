@@ -33,7 +33,7 @@ const Experience: React.FC = () => {
               <h5 className="font-inter font-extrabold text-[56px] md:text-7xl text-white italic">
                 13-4
               </h5>
-              <div className="flex">
+              <div className="flex gap-10">
                 <h5 className="font-inter font-extrabold text-4xl md:text-[52px] text-white italic">
                   SUB 3-1
                 </h5>

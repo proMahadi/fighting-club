@@ -37,7 +37,7 @@ const TagsSection: React.FC = () => {
           {tags.map((tag) => (
             <div
               key={tag.id}
-              className="flex items-center gap-[26px] text-nowrap ml-14 sm:h-[90px]"
+              className="flex items-center gap-[26px] text-nowrap ml-10 mr-10 sm:h-[90px]"
             >
               <Image src={starIcon} alt="starIcon" />
               <p className="text-gray2 font-figTree font-black italic text-[34px] md:text-5xl">
