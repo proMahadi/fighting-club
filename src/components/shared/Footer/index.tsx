@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import footerLogo from "@/assets/footerLogo.svg";
+import footerLogo2 from "@/assets/footerLogo.svg";
 import { FaFacebook } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
   return (
     <section className="bg-black pt-12 pb-[59px] md:pt-[67px] md:pb-8">
       <div>
-        <Image src={footerLogo} alt="footerLogo" className="mx-auto" />
+        <Image src={footerLogo2} alt="footerLogo" className="mx-auto h-[84px] w-[84px] object-cover" />
         <p className=" font-figTree font-normal text-xl text-white mt-2.5 text-center">
           Montreal, QC
         </p>
