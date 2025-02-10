@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import fighterImage from "@/assets/fighterImage.svg";
+import fighterImage from "@/assets/fighterImage.png";
 
 const HeroSection: React.FC = () => {
   return (
