@@ -19,7 +19,8 @@ const HeroSection: React.FC = () => {
           <Image
             src={fighterImage}
             alt="fighterImage"
-            className="absolute w-[45%] 2xl:w-[33%] z-10 bottom-0 left-[50%] translate-x-[-50%] "
+            className="absolute w-[45%] 2xl:w-[33%] z-10 bottom-0 left-[50%] translate-x-[-50%] " 
+            loading="eager"
           />
           <div className="xl:mb-[86px]">
             <h1 className="text-white lg:font-black  text-7xl lg:text-8xl xl:text-9xl font-inter">
