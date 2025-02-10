@@ -3,9 +3,9 @@ import React from "react";
 const Experience: React.FC = () => {
   return (
     <section className="bg-black">
-      <div className="py-24 bg-experienceBg bg-center bg-no-repeat bg-cover px-5 lg:px-0 relative">
+      <div className="py-24 bg-experienceBg bg-center bg-no-repeat bg-cover px-5 lg:px-0 relative overflow-hidden">
         <div className="text-center">
-          <h3 className="font-inter font-black italic text-5xl lg:text-[64px] text-white">
+          <h3 className="font-inter font-black italic text-[40px] sm:text-5xl lg:text-[64px] text-white">
             EXPERIENCE
           </h3>
           <p className="font-figTree font-light text-2xl md:text-3xl lg:text-4xl text-white mt-6">
