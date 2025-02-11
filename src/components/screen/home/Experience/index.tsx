@@ -3,7 +3,7 @@ import React from "react";
 const Experience: React.FC = () => {
   return (
     <section className="bg-black">
-      <div className="py-24 bg-experienceBg bg-center bg-no-repeat bg-cover px-5 lg:px-0 relative">
+      <div className="py-24 bg-experienceBg bg-center bg-no-repeat bg-cover px-5 lg:px-0 relative overflow-hidden">
         <div className="text-center">
           <h3 className="font-inter font-black italic text-5xl lg:text-[64px] text-white">
             EXPERIENCE

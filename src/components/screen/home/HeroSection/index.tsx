@@ -36,7 +36,7 @@ const HeroSection: React.FC = () => {
       </section>
       {/* desktop device */}
       {/* small device */}
-      <section className="h-[750px] bg-heroBg bg-no-repeat bg-center bg-cover relative flex items-end justify-center  lg:hidden ">
+      <section className="h-[675px] xs:h-[750px] bg-heroBg bg-no-repeat bg-center bg-cover relative flex items-end justify-center  lg:hidden ">
         <div>
           <div className="text-center">
             <p className="text-gray1 font-figTree italic text-xl text-nowrap">
