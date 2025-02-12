@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
   return (
     <section className="bg-black pt-12 pb-[59px] md:pt-[67px] md:pb-8">
       <div>
-        <Image src={footerLogo2} alt="footerLogo" className="mx-auto h-[84px] w-[84px] object-cover" />
+        <Image src={footerLogo2} alt="footerLogo" className="mx-auto w-auto h-auto sm:h-[84px] sm:w-[84px] object-cover" />
         <p className=" font-figTree font-normal text-xl text-white mt-2.5 text-center">
           Montreal, QC
         </p>
