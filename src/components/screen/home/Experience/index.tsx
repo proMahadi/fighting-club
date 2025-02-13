@@ -47,25 +47,25 @@ const Experience: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 max-w-[1112px] mx-auto ">
           <div className="w-full border-2 border-white p-6">
             <p className="font-inter font-medium italic text-[32px] sm:whitespace-pre-line text-center text-white">{`Amateur MMA \nRecord`}</p>
-            <h5 className="font-inter font-extrabold text-4xl text-[56px] md:text-[64px] text-white italic text-center mt-11 mb-11">
+            <h5 className="font-inter font-extrabold text-[56px] md:text-[64px] text-white italic text-center mt-11 mb-11">
               9-0
             </h5>
           </div>
           <div className="w-full border-2 border-white p-6">
             <p className="font-inter font-medium italic text-[32px] sm:whitespace-pre-line text-center text-white">{`Amateur Jiu-Jitsu \nRecord`}</p>
-            <h5 className="font-inter font-extrabold text-4xl text-[56px] md:text-[64px] text-white italic text-center mt-11 mb-11">
+            <h5 className="font-inter font-extrabold text-[56px] md:text-[64px] text-white italic text-center mt-11 mb-11">
               3-1
             </h5>
           </div>
           <div className="w-full border-2 border-white p-6">
             <p className="font-inter font-medium italic text-[32px] sm:whitespace-pre-line text-center text-white">{`Amateur Boxing \nRecord`}</p>
-            <h5 className="font-inter font-extrabold text-4xl text-[56px] md:text-[64px] text-white italic text-center mt-11 mb-11">
+            <h5 className="font-inter font-extrabold text-[56px] md:text-[64px] text-white italic text-center mt-11 mb-11">
               3-1
             </h5>
           </div>
           <div className="w-full border-2 border-white p-6">
             <p className="font-inter font-medium italic text-[32px] sm:whitespace-pre-line text-center text-white">{`Amateur Muay Thai \nRecord`}</p>
-            <h5 className="font-inter font-extrabold text-4xl text-[56px] md:text-[64px] text-white italic text-center mt-11 mb-11">
+            <h5 className="font-inter font-extrabold text-[56px] md:text-[64px] text-white italic text-center mt-11 mb-11">
               3-1
             </h5>
           </div>
